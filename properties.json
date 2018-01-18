@@ -1,0 +1,16 @@
+{
+    "suites": [
+        {
+            "id": 0,
+            "name": "DEVDailyTests",
+            "script": "DEVPayments.bat"
+        },
+        {
+            "id": 1,
+            "name": "QADailyTests",
+            "script": "QAPayments.bat"
+        }
+    ],
+    "welcometext": "Hi, I am here to help you run automation suites for the payments team. You can get my attention by typing my name and a request. At this point, I can help you lookup what test suites can be run, and actually running them. \n\nFor example, to find out what suites are available, you can ask \"@Payments Automation Bot what suites are available?\"\nFor another example, to run a suite, you can type \"@Payments Automation Bot run <suitename>\"\n\nYou can enter \"@Payments Automation Bot help\" anytime you need some help.\n\nYou can also open a direct message with me if you want to keep our interaction private.\n\nEnjoy!",
+    "helptext": "To run a suite: \"@Payments Automation Bot run <suitename>\"\nTo get a list of suites I can run for you: \"@Payments Automation Bot give me a list of suites\"\n\nIf you need some human help, ask Sam Hall :("
+}

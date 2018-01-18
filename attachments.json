@@ -1,0 +1,21 @@
+[
+	{
+		"text": "",
+		"fallback": "Unable to choose a suite",
+		"callback_id": "choose_suite",
+		"actions": [
+			{
+				"name": "dev_smoke",
+				"text": "DEVSmoke",
+				"type": "button",
+				"value": "devSmoke"
+			},
+			{
+				"name": "qa_smoke",
+				"text": "QASmoke",
+				"type": "button",
+				"value": "qaSmoke"
+			}
+		]
+	}
+]
